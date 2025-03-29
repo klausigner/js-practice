@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'Funnel_Sans', sans-serif;
+    src: url(FunnelSans-VariableFont_wght.ttf) format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+:root{
+    --yellow-500: #F0DB4F;
+    --black-600: #080808;
+    --black-500: #141414;
+    --black-400: #1C1C1C;
+    --black-300: #323232;
+    --black-200: #424242;
+    --black-100: #898989;
+    --white-500: #FFFFFF;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Funnel_Sans", sans-serif;
+}
+
+#js-bg {
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black-500);
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black-400);
+    width: 392px;
+    padding: 24px;
+    gap: 24px;
+    border: 1.5px solid var(--black-200);
+    border-radius: 8px;
+}
+
+#javascript-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#form-control-usn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#label1 {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    color: var(--white-500);
+    font-family: "Funnel_Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+}
+
+#label2 {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    color: var(--white-500);
+    font-family: "Funnel_Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+}
+
+#field-usn {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: var(--black-300);
+    border: 1.5px solid var(--black-200);
+    height: 40px;
+    border-radius: 6px;
+    padding-left: 16px;
+    padding-left: 16px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+}
+
+#field-text-usn {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    color: var(--black-100);
+    font-family: "Funnel_Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.24px;
+}
+
+#form-control-msg {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#field-msg {
+    display: block;
+    background-color: var(--black-300);
+    border: 1.5px solid var(--black-200);
+    height: 160px;
+    border-radius: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#field-text-msg {
+    display: block;
+    color: var(--black-100);
+    font-family: "Funnel_Sans", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.24px;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
+
+#button {
+    background-color: var(--yellow-500);
+    color: var(--black-600);
+    font-family: "Funnel_Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: var(--white-500);
+    color: var(--black-600);
+}
+
+
+
+
